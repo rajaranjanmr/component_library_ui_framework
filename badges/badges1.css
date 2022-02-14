@@ -1,0 +1,36 @@
+:root{
+    --primaryBadgeCol:#876445;
+    --secondaryBadgeCol:#D96098;
+    --thirdBadgeCol:#24A19C;
+    --fourthBadgeCol:#325288;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.badges{
+    color:rgb(202, 186, 186);
+    display: flex;
+}
+.badge{
+    padding: 1rem;
+    width: 13%;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+.primary{
+    background-color: var(--primaryBadgeCol);
+}
+.secondary{
+    background-color: var(--secondaryBadgeCol);
+}
+.third{
+    background-color: var(--thirdBadgeCol);
+}
+.fourth{
+    background-color:var(--fourthBadgeCol);
+}
