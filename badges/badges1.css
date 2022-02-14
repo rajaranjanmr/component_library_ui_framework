@@ -4,17 +4,13 @@
     --thirdBadgeCol:#24A19C;
     --fourthBadgeCol:#325288;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+
 .badges{
     color:rgb(202, 186, 186);
     display: flex;
+    /* margin-bottom:2rem; */
 }
-.badge{
+.badge-plain{
     padding: 1rem;
     width: 13%;
     height: auto;

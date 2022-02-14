@@ -11,10 +11,11 @@
 :root{
 
     --primary-color:#F6830F;
+    --background-color-cl:aliceblue;
     /*#655D8A;*/
 }
 body{
-    background-color: hsl(0, 0%, 100%);
+   background-color: var(--background-color-cl);
 }
 .container{
     position: absolute;
@@ -110,10 +111,6 @@ body{
     font-size:1.5rem;
     padding:1rem;
     font-weight: 200;
-    /* width:50%;
-    position:absolute;
-    left:200px;
-    top:200px; */
     
     
 }
@@ -185,7 +182,6 @@ body{
     font-size:1.5rem;
 }
 
-/* for docs.html */
 .left-navbar{
     width:15%;
     /* background-color: red; */
@@ -270,5 +266,6 @@ iframe{
     transform: scale(1); 
     overflow:hidden;
 }
+
 
 
