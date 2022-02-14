@@ -1,0 +1,37 @@
+:root{
+    --redalertCol : #FF6363;
+    --greenalertCol : #77D970;
+    --bluealertCol : #3DB2FF;
+    --yellowalertCol : #F9D371;
+}
+.alert{
+    width:70%;
+    height: auto;
+    padding: 0.94rem;
+    display: flex;
+    gap:60%;
+    justify-content: space-around;
+    border:1px solid black;
+    border-radius: 1rem;
+    margin:1rem;
+}
+.redalert{
+    background-color: var(--redalertCol);
+}
+.contentIcon{
+    cursor: pointer;
+    padding:1rem;
+}
+.contentItem{
+    padding:1rem;
+}
+.greenalert{
+    background-color: var(--greenalertCol);
+}
+
+.bluealert{
+    background-color: var(--bluealertCol);
+}
+.yellowalert{
+    background-color:var(--yellowalertCol) ;
+}
