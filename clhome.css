@@ -70,7 +70,6 @@ body{
     width: 100%;
     display:flex;
     margin-top:0.2rem;
-    /* background-color: blanchedalmond; */
     gap:1rem;
     
 }
@@ -91,18 +90,12 @@ body{
     margin-top:81px;
 
 }
-/* .left-navbar{
-    margin-top:300px;
-} */
-
 .heading{
     text-align: left;
     color:navy;
     font-size:2.5rem;
     padding:1rem;
     font-weight: 500;
-    
-
 }
 .about{
     text-align: left;
@@ -110,12 +103,6 @@ body{
     font-size:1.5rem;
     padding:1rem;
     font-weight: 200;
-    /* width:50%;
-    position:absolute;
-    left:200px;
-    top:200px; */
-    
-    
 }
 .content{
     text-align: center;
@@ -151,8 +138,6 @@ body{
     padding-bottom:1rem;
     justify-content: space-around;
     font-size:2rem;
-
-
 }
 .footer-nav li{
     list-style: none;
@@ -163,7 +148,6 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     font-family:sans-serif;
-    
 }
 .footer-content{
     text-align:center;
@@ -185,10 +169,8 @@ body{
     font-size:1.5rem;
 }
 
-/* for docs.html */
 .left-navbar{
     width:15%;
-    /* background-color: red; */
     margin-top:6rem;
     margin-left:0.5rem;
     position:fixed;
@@ -208,15 +190,12 @@ body{
     font-weight: 800;
     cursor: pointer;
     padding:0.5rem;
-
 }
 .left-nav-items a:hover{
     background-color: var(--primary-color);
     color:white;
     border-radius:5px;
-
 }
-/* for mid content */
 
 .content-middile{
     display:flex;
@@ -226,7 +205,6 @@ body{
    left:20rem;
    gap:1rem;
     margin-top:5rem;
-
 }
 .content-heading{
     display: flex;
@@ -240,14 +218,11 @@ body{
     position:relative;
     left:0.rem;
     margin-bottom:0.5rem;
-    
-    
 }
 .subheading h3{
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
     font-size:1.5rem;
-
 }
 .subhead-content{
     padding-bottom:0.5rem;
@@ -258,14 +233,11 @@ body{
     padding-bottom:0.5rem;
     padding-top:0.5rem;
     font-size:1.3rem;
-
 }
 
 iframe{
     margin-top:1rem;
     width: 50%;
-    /* height:auto;  */
-    /* height: 135px;  */
     border:0; 
     transform: scale(1); 
     overflow:hidden;
