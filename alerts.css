@@ -1,8 +1,14 @@
+
+:root{
+    --redalertCol : #FF6363;
+    --greenalertCol : #77D970;
+    --bluealertCol : #3DB2FF;
+    --yellowalertCol : #F9D371;
+}
 .alert{
     width:70%;
     height: auto;
-    padding: 15px;
-    
+    padding: 0.94rem;
     display: flex;
     gap:60%;
     justify-content: space-around;
@@ -11,7 +17,7 @@
     margin:1rem;
 }
 .redalert{
-    background-color: #FF6363;
+    background-color: var(--redalertCol);
 }
 .contentIcon{
     cursor: pointer;
@@ -21,20 +27,13 @@
     padding:1rem;
 }
 .greenalert{
-    background-color: #77D970;
+
+    background-color: var(--greenalertCol);
 }
 
 .bluealert{
-    background-color: #3DB2FF;
+    background-color: var(--bluealertCol);
 }
 .yellowalert{
-    background-color: #F9D371;
-}
-
-/* badges */
-.badges{
-    color:rgb(202, 186, 186);
-    display: flex;
-    
-
+    background-color:var(--yellowalertCol) ;
 }
