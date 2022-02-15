@@ -1,0 +1,84 @@
+.avtaar-badges{
+    display:flex;
+    gap:1rem;
+}
+.badge-icon{
+    
+    border-radius: 50%;
+    background-color:var(--primary-color);
+    color:var(--primary-color);
+    display: block;
+    position:absolute;    
+}
+.avtaar-badges img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%
+}
+.badge1{
+    width: 10%;
+    height: 14%;
+    right:19%;
+    bottom:17%;
+}
+.badge2{
+    width: 10%;
+    height: 15%;
+    right:19%;
+    bottom:17%;
+}
+.badge3{
+    width: 10%;
+    height: 15%;
+    right:19%;
+    bottom:17%;
+}
+.badge4{
+    width:10%;
+    height:15%;
+    right:19%;
+    bottom:17%;
+}
+.badge5{
+    width: 10%;
+    height: 15%;
+    right:19%;
+    bottom:17%;
+}
+
+.badges-avtaar img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%
+    
+}
+ .xsm-badges{
+    width: 10%;
+    height: 10%;
+    position: relative;
+}
+.sm-badges{
+    width: 15%;
+    height: 15%;
+    position: relative;
+}
+
+.md-badges{
+    width: 25%;
+    height: 25%;
+    position: relative;
+
+}
+.lg-badges{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    border-radius: 50%;
+    
+
+}
+.xlg-badges{
+    width: 35%;
+    height: 35%;
+    position: relative;
+}

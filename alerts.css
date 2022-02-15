@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+.alert{
+    width:70%;
+    height: auto;
+    padding: 15px;
+    
+=======
+=======
+
+>>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 :root{
     --redalertCol : #FF6363;
     --greenalertCol : #77D970;
@@ -8,6 +19,10 @@
     width:70%;
     height: auto;
     padding: 0.94rem;
+<<<<<<< HEAD
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
+=======
+>>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
     display: flex;
     gap:60%;
     justify-content: space-around;
@@ -16,7 +31,15 @@
     margin:1rem;
 }
 .redalert{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background-color: #FF6363;
+=======
     background-color: var(--redalertCol);
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
+=======
+    background-color: var(--redalertCol);
+>>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .contentIcon{
     cursor: pointer;
@@ -26,6 +49,28 @@
     padding:1rem;
 }
 .greenalert{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background-color: #77D970;
+}
+
+.bluealert{
+    background-color: #3DB2FF;
+}
+.yellowalert{
+    background-color: #F9D371;
+}
+
+/* badges */
+.badges{
+    color:rgb(202, 186, 186);
+    display: flex;
+    
+
+=======
+=======
+
+>>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
     background-color: var(--greenalertCol);
 }
 
@@ -34,4 +79,8 @@
 }
 .yellowalert{
     background-color:var(--yellowalertCol) ;
+<<<<<<< HEAD
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
+=======
+>>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
