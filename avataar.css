@@ -1,25 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 .avtaars{
     display: flex;
-    justify-content: center;
+    gap:1rem;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 .avtaars img{
     width: 100%;
     height:auto;
@@ -31,57 +18,21 @@
     height: 10%;
 }
 .sm-avtaars{
-<<<<<<< HEAD
-=======
- img{
-    width: 100%;
-    height:auto;
-    border-radius: 3%
-    
-}
-.xsm{
-    width: 10%;
-    height: 10%;
-}
-.sm{
->>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
+
+
     width: 15%;
     height: 15%;
     position: relative;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 .md-avtaars{
-=======
-.sm{
-    width: 20%;
-    height: 20%;
-    position: relative;
 
-}
-.md{
->>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
-.md-avtaars{
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
     width: 25%;
     height: 25%;
     position: relative;
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .lg-avtaars{
-=======
-.lg{
->>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-.lg-avtaars{
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
     width: 30%;
     height: 30%;
     position: relative;
@@ -89,23 +40,9 @@
     
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
+
 .xlg-avtaars{
     width: 35%;
     height: 35%;
     position: relative;
-<<<<<<< HEAD
 }
-=======
-.xlg{
-    width: 35%;
-    height: 35%;
-    position: relative;
-}
->>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-}
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
