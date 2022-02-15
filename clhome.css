@@ -12,7 +12,6 @@
 
     --primary-color:#F6830F;
     --background-color-cl:aliceblue;
-    /*#655D8A;*/
 }
 body{
    background-color: var(--background-color-cl);
@@ -71,7 +70,6 @@ body{
     width: 100%;
     display:flex;
     margin-top:0.2rem;
-    /* background-color: blanchedalmond; */
     gap:1rem;
     
 }
@@ -92,9 +90,6 @@ body{
     margin-top:81px;
 
 }
-/* .left-navbar{
-    margin-top:300px;
-} */
 
 .heading{
     text-align: left;
@@ -184,7 +179,6 @@ body{
 
 .left-navbar{
     width:15%;
-    /* background-color: red; */
     margin-top:6rem;
     margin-left:0.5rem;
     position:fixed;
@@ -212,7 +206,6 @@ body{
     border-radius:5px;
 
 }
-/* for mid content */
 
 .content-middile{
     display:flex;
@@ -260,8 +253,6 @@ body{
 iframe{
     margin-top:1rem;
     width: 50%;
-    /* height:auto;  */
-    /* height: 135px;  */
     border:0; 
     transform: scale(1); 
     overflow:hidden;

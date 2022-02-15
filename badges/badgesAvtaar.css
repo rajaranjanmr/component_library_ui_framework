@@ -1,7 +1,6 @@
 .avtaar-badges{
     display:flex;
     gap:1rem;
-    flex-direction: row;
 }
 .badge-icon{
     
@@ -63,12 +62,7 @@
     height: 15%;
     position: relative;
 }
-/* .sm-badges{
-    width: 20%;
-    height: 20%;
-    position: relative;
 
-} */
 .md-badges{
     width: 25%;
     height: 25%;

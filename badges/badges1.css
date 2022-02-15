@@ -3,10 +3,11 @@
     --secondaryBadgeCol:#D96098;
     --thirdBadgeCol:#24A19C;
     --fourthBadgeCol:#325288;
+    --badges-color:#CABABA;
 }
 
 .badges{
-    color:rgb(202, 186, 186);
+    color:var(--badges-color);
     display: flex;
     /* margin-bottom:2rem; */
 }
