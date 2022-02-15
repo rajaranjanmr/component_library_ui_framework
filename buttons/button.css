@@ -12,18 +12,18 @@
 }
 .btn button{
     outline: 0;
-padding-left: 2rem;
-padding-right: 2rem;
-padding-top: 0.7em;
-padding-bottom: 0.5rem;
-color: white;
-background-color: #082032;
-text-align: center;
-cursor: pointer;
-font-size: 18px;
-border-radius: 10px;
-text-align: center;
-font-weight: 800;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: #082032;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center; 
+    font-weight: 800;
 }
 .btn a{
     padding-left: 2rem;

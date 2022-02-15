@@ -12,22 +12,16 @@
 
     --primary-color:#F6830F;
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
     --background-color-cl:aliceblue;
 }
 body{
    background-color: var(--background-color-cl);
-<<<<<<< HEAD
 =======
     /*#655D8A;*/
 }
 body{
     background-color: hsl(0, 0%, 100%);
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .container{
     position: absolute;
@@ -104,13 +98,9 @@ body{
 
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 .heading{
     text-align: left;
     color:navy;
@@ -118,15 +108,10 @@ body{
     padding:1rem;
     font-weight: 500;
 <<<<<<< HEAD
-<<<<<<< HEAD
     
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-    
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .about{
     text-align: left;
@@ -135,15 +120,10 @@ body{
     padding:1rem;
     font-weight: 200;
 <<<<<<< HEAD
-<<<<<<< HEAD
     
     
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-    
-    
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .content{
     text-align: center;
@@ -180,15 +160,10 @@ body{
     justify-content: space-around;
     font-size:2rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .footer-nav li{
     list-style: none;
@@ -200,13 +175,9 @@ body{
     transition: all 0.3s ease;
     font-family:sans-serif;
 <<<<<<< HEAD
-<<<<<<< HEAD
     
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-    
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .footer-content{
     text-align:center;
@@ -250,22 +221,15 @@ body{
     cursor: pointer;
     padding:0.5rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .left-nav-items a:hover{
     background-color: var(--primary-color);
     color:white;
     border-radius:5px;
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
@@ -280,13 +244,9 @@ body{
    gap:1rem;
     margin-top:5rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .content-heading{
     display: flex;
@@ -301,28 +261,19 @@ body{
     left:0.rem;
     margin-bottom:0.5rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
     
     
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-    
-    
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .subheading h3{
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
     font-size:1.5rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 .subhead-content{
     padding-bottom:0.5rem;
@@ -334,13 +285,9 @@ body{
     padding-top:0.5rem;
     font-size:1.3rem;
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
 }
 
 iframe{
@@ -353,10 +300,6 @@ iframe{
 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 =======
 >>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
-=======
-
->>>>>>> 34241759428d49fb2873f73b4e4ae05c401a9197
