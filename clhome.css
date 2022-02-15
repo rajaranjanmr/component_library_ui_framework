@@ -11,10 +11,17 @@
 :root{
 
     --primary-color:#F6830F;
+<<<<<<< HEAD
     --background-color-cl:aliceblue;
 }
 body{
    background-color: var(--background-color-cl);
+=======
+    /*#655D8A;*/
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .container{
     position: absolute;
@@ -90,15 +97,21 @@ body{
     margin-top:81px;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 .heading{
     text-align: left;
     color:navy;
     font-size:2.5rem;
     padding:1rem;
     font-weight: 500;
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .about{
     text-align: left;
@@ -106,8 +119,11 @@ body{
     font-size:1.5rem;
     padding:1rem;
     font-weight: 200;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .content{
     text-align: center;
@@ -143,8 +159,11 @@ body{
     padding-bottom:1rem;
     justify-content: space-around;
     font-size:2rem;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .footer-nav li{
     list-style: none;
@@ -155,7 +174,10 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     font-family:sans-serif;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .footer-content{
     text-align:center;
@@ -198,13 +220,19 @@ body{
     font-weight: 800;
     cursor: pointer;
     padding:0.5rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .left-nav-items a:hover{
     background-color: var(--primary-color);
     color:white;
     border-radius:5px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 
 .content-middile{
@@ -215,7 +243,10 @@ body{
    left:20rem;
    gap:1rem;
     margin-top:5rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .content-heading{
     display: flex;
@@ -229,14 +260,20 @@ body{
     position:relative;
     left:0.rem;
     margin-bottom:0.5rem;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .subheading h3{
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
     font-size:1.5rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .subhead-content{
     padding-bottom:0.5rem;
@@ -247,7 +284,10 @@ body{
     padding-bottom:0.5rem;
     padding-top:0.5rem;
     font-size:1.3rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 
 iframe{
@@ -259,4 +299,7 @@ iframe{
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f

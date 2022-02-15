@@ -1,8 +1,21 @@
+<<<<<<< HEAD
 .alert{
     width:70%;
     height: auto;
     padding: 15px;
     
+=======
+:root{
+    --redalertCol : #FF6363;
+    --greenalertCol : #77D970;
+    --bluealertCol : #3DB2FF;
+    --yellowalertCol : #F9D371;
+}
+.alert{
+    width:70%;
+    height: auto;
+    padding: 0.94rem;
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
     display: flex;
     gap:60%;
     justify-content: space-around;
@@ -11,7 +24,11 @@
     margin:1rem;
 }
 .redalert{
+<<<<<<< HEAD
     background-color: #FF6363;
+=======
+    background-color: var(--redalertCol);
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
 .contentIcon{
     cursor: pointer;
@@ -21,6 +38,7 @@
     padding:1rem;
 }
 .greenalert{
+<<<<<<< HEAD
     background-color: #77D970;
 }
 
@@ -37,4 +55,14 @@
     display: flex;
     
 
+=======
+    background-color: var(--greenalertCol);
+}
+
+.bluealert{
+    background-color: var(--bluealertCol);
+}
+.yellowalert{
+    background-color:var(--yellowalertCol) ;
+>>>>>>> 59aa76f14abbbc8ce9191955bc7a9f7362babc6f
 }
