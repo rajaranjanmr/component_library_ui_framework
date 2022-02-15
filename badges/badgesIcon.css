@@ -31,11 +31,12 @@
     
     background-color:var(--badge-backgound-color);
     border-radius: 50%;
-    padding:0.2rem;
+    width:1.2rem;
+    height: 1.2rem;
+    text-align: center;
     position:absolute;
     left:2.63rem;
-    top:-6px;
-    
+    top:-6px;  
 }
 .badge-icon2{
     font-size: 3rem;
@@ -44,7 +45,9 @@
 .badge-content2{
     background-color:var(--badge-backgound-color);
     border-radius: 50%;
-    padding:0.2rem;
+    width:1.2rem;
+    height: 1.2rem;
+    text-align: center;
     position:absolute;
     left:1.6rem;
     top:-3px;
