@@ -2,6 +2,12 @@
 .buttons{
     display: flex;
     flex-direction: row;
+    width:100%;
+    justify-content:start;
+}
+:root{
+    --button-background-color:#082032;
+    --button-content-color:white;
 }
 .btn{
     padding:0.5rem;
@@ -16,8 +22,8 @@
     padding-right: 2rem;
     padding-top: 0.7em;
     padding-bottom: 0.5rem;
-    color: white;
-    background-color: #082032;
+    color: var(--button-content-color);
+    background-color: var(--button-background-color);
     text-align: center;
     cursor: pointer;
     font-size: 18px;
@@ -30,8 +36,8 @@
     padding-right: 2rem;
     padding-top: 0.7em;
     padding-bottom: 0.5rem;
-    color: white;
-    background-color: #082032;
+    color: var(--button-content-color);
+    background-color: var(--button-background-color);
     text-align: center;
     cursor: pointer;
     font-size: 18px;
@@ -45,6 +51,7 @@
 }
 .far{
     padding-right:0.5rem;
+    color:var(--button-content-color);
 }
 .btn a:hover{
     background-color: var(--primary-color);
