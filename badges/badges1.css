@@ -3,6 +3,7 @@
     --secondaryBadgeCol:#D96098;
     --thirdBadgeCol:#24A19C;
     --fourthBadgeCol:#325288;
+<<<<<<< HEAD
 }
 *{
     padding: 0;
@@ -15,6 +16,17 @@
     display: flex;
 }
 .badge{
+=======
+    --badges-color:#CABABA;
+}
+
+.badges{
+    color:var(--badges-color);
+    display: flex;
+    /* margin-bottom:2rem; */
+}
+.badge-plain{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     padding: 1rem;
     width: 13%;
     height: auto;

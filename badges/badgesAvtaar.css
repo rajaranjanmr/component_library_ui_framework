@@ -1,9 +1,14 @@
 .avtaar-badges{
     display:flex;
     gap:1rem;
+<<<<<<< HEAD
     flex-direction: row;
 }
 .badge{
+=======
+}
+.badge-icon{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     
     border-radius: 50%;
     background-color:var(--primary-color);
@@ -11,6 +16,14 @@
     display: block;
     position:absolute;    
 }
+<<<<<<< HEAD
+=======
+.avtaar-badges img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%
+}
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
 .badge1{
     width: 10%;
     height: 14%;
@@ -42,22 +55,35 @@
     bottom:17%;
 }
 
+<<<<<<< HEAD
 img{
+=======
+.badges-avtaar img{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 100%;
     height:auto;
     border-radius: 50%
     
 }
+<<<<<<< HEAD
 .xsm{
+=======
+ .xsm-badges{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 10%;
     height: 10%;
     position: relative;
 }
+<<<<<<< HEAD
 .sm{
+=======
+.sm-badges{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 15%;
     height: 15%;
     position: relative;
 }
+<<<<<<< HEAD
 .sm{
     width: 20%;
     height: 20%;
@@ -65,12 +91,20 @@ img{
 
 }
 .md{
+=======
+
+.md-badges{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 25%;
     height: 25%;
     position: relative;
 
 }
+<<<<<<< HEAD
 .lg{
+=======
+.lg-badges{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 30%;
     height: 30%;
     position: relative;
@@ -78,7 +112,11 @@ img{
     
 
 }
+<<<<<<< HEAD
 .xlg{
+=======
+.xlg-badges{
+>>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     width: 35%;
     height: 35%;
     position: relative;

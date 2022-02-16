@@ -1,3 +1,4 @@
+
 :root{
     --redalertCol : #FF6363;
     --greenalertCol : #77D970;
@@ -28,6 +29,12 @@
 .greenalert{
     background-color: var(--greenalertCol);
 }
+
+
+.badges{
+    color:rgb(202, 186, 186);
+    display: flex;
+    }
 
 .bluealert{
     background-color: var(--bluealertCol);
