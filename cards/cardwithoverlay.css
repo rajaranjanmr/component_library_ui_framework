@@ -50,9 +50,9 @@ font-weight: 200;
 .para-card .rating-card .rating-h{
 background-color: var(--card-badge-rating-bg);
 display: inline;
-padding:0.3rem;
-padding-left:0.5rem;
-padding-right:0.5rem;
+padding:0.3rem 0.5rem;
+/* padding-left:0.5rem;
+padding-right:0.5rem; */
 border-radius:5px;
 color:var(--card-background-color);
 position: absolute;
