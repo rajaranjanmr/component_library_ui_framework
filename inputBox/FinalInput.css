@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --form-button-color:#F6830F;
+    --form-border-col:black;
+    --form-btn-content-color:aliceblue;
+}
+.form-container{
+    border:1px solid var(--form-border-col);
+    width:40%;
+    text-align: left;
+}
+.suc{
+    width: 100%;;
+    padding:1rem;
+}
+#fname-val,#lname-val,#email-val,#pwd-val,#states{
+    width: 60%;
+    padding:0.4rem;
+    border:1px solid var(--form-button-color);
+    border-radius:5px;
+}
+.fname,.lname,.uname,.pwd,.state{
+    padding-bottom:0.3remm;
+    font-weight: 800;
+    font-size:1.5rem;
+}
+.btn-class{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    cursor: pointer;
+    padding-left:1rem;
+    padding-right: 1rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    border-radius:10px;
+    background-color: var(--form-button-color);
+    font-size:1rem;
+    position: relative;
+    left:10rem;
+    margin-bottom:1rem;
+    width:30%;
+    color:var(--form-btn-content-color);
+}

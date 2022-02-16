@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color-utilities:grey;
+}
+.text-utilites{
+    width: 30%;
+}
+.grey-text{
+    color:var(--text-color-utilities);
+}
+.center-text{
+    text-align:center;
+}

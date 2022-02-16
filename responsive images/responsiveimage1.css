@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+}
+.img-container{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+}
+.resp-img{
+    width: 40%;
+}
+.resp-img img{
+  max-width: 100%;
+  height: auto;
+}
+.resp-round-img{
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.resp-round-img img{
+    width: 30%;
+    height:30%;
+    border-radius:50%;
+    object-fit: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+
+}
+
+

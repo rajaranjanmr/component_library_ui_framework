@@ -1,0 +1,15 @@
+.resp-round-img{
+    width: 100%;
+    height: auto;
+}
+.resp-round-img img{
+    width: 30%;
+    height:30%;
+    border-radius:50%;
+    object-fit: cover;
+    position:relative; 
+    top:0;
+    left:-33rem;
+    overflow: hidden;
+
+}
