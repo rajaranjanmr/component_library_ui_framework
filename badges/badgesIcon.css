@@ -1,11 +1,6 @@
 :root{
-<<<<<<< HEAD
-    --badgeIconGreyCol:grey;
-    --badgeBackgoundColor:rgb(218, 207, 207);
-=======
     --badge-icon-grey-col:grey;
     --badge-backgound-color:#DACFCF;
->>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
 }
 *{
     padding:0;
@@ -30,19 +25,6 @@
 }
 .badge-icon1{
     font-size: 3rem;
-<<<<<<< HEAD
-    color:var(--badgeIconGreyCol);
-}
-.badge-content1{
-    
-    background-color:var(--badgeBackgoundColor);
-    border-radius: 50%;
-    padding:0.2rem;
-    position:absolute;
-    left:2.63rem;
-    top:-6px;
-    
-=======
     color:var(--badge-icon-grey-col);
 }
 .badge-content1{
@@ -55,24 +37,17 @@
     position:absolute;
     left:2.63rem;
     top:-6px;  
->>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
 }
 .badge-icon2{
     font-size: 3rem;
     color:black;
 }
 .badge-content2{
-<<<<<<< HEAD
-    background-color:var(--badgeBackgoundColor);
-    border-radius: 50%;
-    padding:0.2rem;
-=======
     background-color:var(--badge-backgound-color);
     border-radius: 50%;
     width:1.2rem;
     height: 1.2rem;
     text-align: center;
->>>>>>> 2fee923d6501c0f8a2b007f443a1021c364cc5f9
     position:absolute;
     left:1.6rem;
     top:-3px;
