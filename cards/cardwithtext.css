@@ -1,0 +1,29 @@
+:root{
+    --card-background-color:aliceblue;
+    --card-border-color:black;
+}
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+font-family: sans-serif;
+letter-spacing: 1px;
+}
+.card-legend{
+width:20%;
+border:1px solid var(--card-border-color);
+background-color: var(--card-background-color);
+position: relative;
+border-radius:10px;
+overflow:hidden;
+min-height:255px;
+overflow:hidden;
+
+}
+
+.para-text{
+display:flex;
+flex-direction:column;
+gap:1rem;
+padding:0.5rem;
+}
