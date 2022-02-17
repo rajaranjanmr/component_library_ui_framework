@@ -1,35 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 .avtaars{
     display: flex;
-    justify-content: center;
+    gap:1rem;
 }
- img{
+.avtaars img{
     width: 100%;
     height:auto;
-    border-radius: 3%
+    border-radius: 50%
     
 }
-.xsm{
+.xsm-avtaars{
     width: 10%;
     height: 10%;
 }
-.sm{
+.sm-avtaars{
+
+
     width: 15%;
     height: 15%;
     position: relative;
 }
-.sm{
-    width: 20%;
-    height: 20%;
-    position: relative;
+.md-avtaars{
 
-}
-.md{
     width: 25%;
     height: 25%;
     position: relative;
 
 }
-.lg{
+
+.lg-avtaars{
     width: 30%;
     height: 30%;
     position: relative;
@@ -37,7 +40,8 @@
     
 
 }
-.xlg{
+
+.xlg-avtaars{
     width: 35%;
     height: 35%;
     position: relative;
