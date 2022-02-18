@@ -16,7 +16,7 @@ background-color: var(--card-background-color);
 position: relative;
 border-radius:10px;
 overflow:hidden;
-min-height:255px;
+min-height:16rem;
 overflow:hidden;
 
 }

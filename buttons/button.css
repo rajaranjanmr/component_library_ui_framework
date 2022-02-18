@@ -25,7 +25,6 @@
     color: var(--button-content-color);
     background-color: var(--button-background-color);
     text-align: center;
-    cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
     text-align: center; 
@@ -39,7 +38,6 @@
     color: var(--button-content-color);
     background-color: var(--button-background-color);
     text-align: center;
-    cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
     text-align: center;
@@ -53,8 +51,12 @@
     padding-right:0.5rem;
     color:var(--button-content-color);
 }
+.btns button:hover{
+    cursor: pointer;
+}
 .btns a:hover{
     background-color: var(--primary-color);
+    cursor: pointer;
 }
 .btns button:hover{
     background-color: var(--primary-color);
