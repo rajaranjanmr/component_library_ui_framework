@@ -54,7 +54,7 @@
     font-weight: 200;
 }
 .para .rating .rating-h{
-    background-color: green;
+    background-color: var( --card-rating-background-color);
     display: inline;
     padding:0.3rem;
     padding-left:0.5rem;
@@ -108,7 +108,7 @@
 }
 .card-btn:hover{
     transition: 5s;
-    background-color:#390868;
+    background-color:var(--button-hover-background-color);
 }
 
 .card-button{

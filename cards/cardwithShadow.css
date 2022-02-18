@@ -41,7 +41,7 @@
 .para-card .price-card{
     position: absolute;
     right:8px;
-    bottom:45px;
+    bottom:2.8rem;
     font-weight: 200;
 }
 .para-card .rating-card .rating-h{
@@ -54,7 +54,7 @@
     color:var(--card-background-color);
     position: absolute;
     right:8px;
-    bottom:70px;
+    bottom:4.37rem;
 
 }
 .badge-card{

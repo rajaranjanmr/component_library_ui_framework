@@ -3,11 +3,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: #041562;
+    background-color: var(--input-background-color);
+}
+:root{
+    --input-background-color:#041562;
+    --input-background-color-white:white;
+    --input-type-color-border:tomato;
+    --input-submit-background-color:green;
+
+
 }
 .formInput{
     width:45%;
-    background-color: #f2f2f2;
+    background-color: var(--input-background-color-white);
     padding:0.5rem;
     align-content: center;
     border-radius:1rem;
@@ -26,7 +34,7 @@ input[type="text"]{
 
 }
 input[type="text"]:hover{
-    border-color:tomato;
+    border-color:var(--input-type-color-border);
 }
 label{
     font-size:1.62rem;
@@ -46,19 +54,19 @@ input[type="password"]{
     text-align: top;
 }
 input[type="password"]:hover{
-    border-color:tomato;
+    border-color:var(--input-type-color-border);
 }
 .submitBtn{
     width: 100%;
     padding:0.5rem;
     font-weight: bold;
-    background-color: #4CAF50;
+    background-color: var(--input-submit-background-color);
     border-radius: 2rem;
     margin:1rem;
-    color:white;
+    color:var(--input-background-color-white);
     font-size: 15px;
 
 }
 .submitBtn:hover{
-    background-color: #45a049;
+    background-color: var(--input-submit-background-color);
 }
