@@ -9,14 +9,16 @@
     --button-background-color:#082032;
     --button-content-color:white;
 }
-.btn{
+
+.btns{
     padding:0.5rem;
     justify-content:center;
     border-radius: 15px;
     width:13%;
     text-align: center;
 }
-.btn button{
+
+.btns button{
     outline: 0;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -25,13 +27,12 @@
     color: var(--button-content-color);
     background-color: var(--button-background-color);
     text-align: center;
-    cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
     text-align: center; 
     font-weight: 800;
 }
-.btn a{
+.btns a{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.7em;
@@ -39,7 +40,6 @@
     color: var(--button-content-color);
     background-color: var(--button-background-color);
     text-align: center;
-    cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
     text-align: center;
@@ -53,9 +53,13 @@
     padding-right:0.5rem;
     color:var(--button-content-color);
 }
-.btn a:hover{
-    background-color: var(--primary-color);
+.btns button:hover{
+    cursor: pointer;
 }
-.btn button:hover{
+.btns a:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.btns button:hover{
     background-color: var(--primary-color);
 }

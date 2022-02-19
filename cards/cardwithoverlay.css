@@ -4,6 +4,7 @@
     --card-badge-bg-col:#BFC205;
     --card-badge-rating-bg:green;
     --card-primary-color:#F6830F;
+    --card-button-color:#082032;
 }
 *{
 padding:0;
@@ -44,15 +45,15 @@ margin-left:0.3rem;
 .para-card .price-card{
 position: absolute;
 right:8px;
-bottom:45px;
+bottom:2.8rem;
 font-weight: 200;
 }
 .para-card .rating-card .rating-h{
 background-color: var(--card-badge-rating-bg);
 display: inline;
-padding:0.3rem 0.5rem;
-/* padding-left:0.5rem;
-padding-right:0.5rem; */
+padding:0.3rem;
+padding-left:0.5rem;
+padding-right:0.5rem;
 border-radius:5px;
 color:var(--card-background-color);
 position: absolute;
@@ -85,7 +86,7 @@ margin-bottom:0.3rem;
 }
 .card-btn{
 padding-top:0.2rem;
-background-color: #082032;
+background-color: var(--card-button-color);
 font-weight: bold;
 font-size:1.5rem;
 color:var(--card-background-color);

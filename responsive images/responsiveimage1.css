@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+}
+.img-container{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+}
+.resp-img{
+    width: 40%;
+}
+
+
