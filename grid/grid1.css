@@ -1,0 +1,27 @@
+:root{
+    --grid-item-one-color:aqua;
+    --gird-item-two-color:bisque;
+    --gird-item-three-color:salmon;
+}
+.gird-container{
+    display:grid;
+    grid-template-columns: 25rem auto;
+    grid-template-rows: 12.5rem;
+    grid-gap:1px;
+}
+
+.item1{
+    width:25rem;
+    height: 12.5rem;
+    background-color: var(--grid-item-one-color);
+    display: block;
+    text-align: center;
+    padding:5rem;
+}
+.item2{
+    width:25rem;
+    height: 12.5rem;
+    background-color: var(--gird-item-two-color);
+    text-align: center;
+    padding:5rem;
+}
