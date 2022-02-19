@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #F6830F;
+    width: 100%;
+    padding:1rem;
+
+    
+}
+.navigation-bar{
+    width: 70%;
+    border-radius: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap:6rem;
+    justify-content: flex-end;
+}
+.navigation-list{
+    justify-content: start;
+}
+li{
+    list-style:none;
+}
+.navitem a{
+    text-decoration: none;
+    
+    color:white;
+    font-size:2rem;
+    cursor: pointer;
+}
+.navitem a:hover{
+    border-bottom:1px solid black;
+}
