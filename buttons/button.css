@@ -9,6 +9,7 @@
     --button-background-color:#082032;
     --button-content-color:white;
 }
+
 .btns{
     padding:0.5rem;
     justify-content:center;
@@ -16,6 +17,7 @@
     width:13%;
     text-align: center;
 }
+
 .btns button{
     outline: 0;
     padding-left: 2rem;

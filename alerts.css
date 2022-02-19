@@ -1,8 +1,9 @@
+
 :root{
-    --redalertCol : #FF6363;
-    --greenalertCol : #77D970;
-    --bluealertCol : #3DB2FF;
-    --yellowalertCol : #F9D371;
+    --redalert-col : #FF6363;
+    --greenalert-col : #77D970;
+    --bluealert-col : #3DB2FF;
+    --yellowalert-col : #F9D371;
 }
 .alert{
     width:70%;
@@ -16,7 +17,7 @@
     margin:1rem;
 }
 .redalert{
-    background-color: var(--redalertCol);
+    background-color: var(--redalert-col);
 }
 .contentIcon{
     cursor: pointer;
@@ -26,12 +27,18 @@
     padding:1rem;
 }
 .greenalert{
-    background-color: var(--greenalertCol);
+    background-color: var(--greenalert-col);
 }
 
+
+.badges{
+    color:rgb(202, 186, 186);
+    display: flex;
+    }
+
 .bluealert{
-    background-color: var(--bluealertCol);
+    background-color: var(--bluealert-col);
 }
 .yellowalert{
-    background-color:var(--yellowalertCol) ;
+    background-color:var(--yellowalert-col) ;
 }

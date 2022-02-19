@@ -11,10 +11,10 @@
 :root{
 
     --primary-color:#F6830F;
-    /*#655D8A;*/
+    --background-color-cl:aliceblue;
 }
 body{
-    background-color: hsl(0, 0%, 100%);
+   background-color: var(--background-color-cl);
 }
 .container{
     position: absolute;
@@ -58,20 +58,17 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     font-family:sans-serif;
-    
 }
  
 .top-nav-link a:hover{
     border-bottom:1px solid black;
     padding:0.2rem;
-    
 }
 .middile-container{
     width: 100%;
     display:flex;
     margin-top:0.2rem;
     gap:1rem;
-    
 }
 .version-text{
     position: absolute;
@@ -88,7 +85,6 @@ body{
 .right-container{
     width:40%;
     margin-top:81px;
-
 }
 .heading{
     text-align: left;
@@ -102,7 +98,7 @@ body{
     color:navy;
     font-size:1.5rem;
     padding:1rem;
-    font-weight: 200;
+    font-weight: 200;  
 }
 .content{
     text-align: center;
@@ -147,7 +143,7 @@ body{
     color:black;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-family:sans-serif;
+    font-family:sans-serif;    
 }
 .footer-content{
     text-align:center;
@@ -217,7 +213,7 @@ body{
 .subheading{
     position:relative;
     left:0.rem;
-    margin-bottom:0.5rem;
+    margin-bottom:0.5rem; 
 }
 .subheading h3{
     padding-top: 0.5rem;
