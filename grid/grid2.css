@@ -6,35 +6,27 @@
 .grid-container-sec{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 200px ;
+    
 }
 :root{
     --grid-item-one-color:aqua;
     --gird-item-two-color:bisque;
     --gird-item-three-color:salmon;
 }
-.item1{
+.item-three{
     width:15rem;
     height: 12.5rem;
     border:1px solid black;
-    background-color: var(--grid-item-one-color);
     text-align: center;
-    padding:2rem;
+    padding:5rem;
+}
+.item1{
+    background-color: var(--grid-item-one-color);
 }
 .item2{
-    width:15rem;
-    height: 12.5rem;
     border: 1px solid black;
-    background-color: var(--gird-item-two-color);
-    text-align: center;
-    padding:5rem;
 }
 .item3{
-    width:15rem;
-    height: 12.5rem;
-    border:1px solid black;
-    height: 12.5rem;
     background-color:var(--gird-item-three-color);
-    text-align: center;
-    padding:5rem;
 }

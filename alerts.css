@@ -27,10 +27,6 @@
     cursor: pointer;
     padding:1rem;
 }
-.contentIcon .fal{
-   
-
-}
 .contentItem{
     padding:1rem;
 }
@@ -38,12 +34,10 @@
     background-color: var(--greenalert-col);
 }
 
-
 .badges{
     color:var(--alieceblue-col);
     display: flex;
-    }
-
+}
 .bluealert{
     background-color: var(--bluealert-col);
 }
