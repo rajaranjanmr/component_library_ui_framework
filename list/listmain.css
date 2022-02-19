@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.list-container-simple{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap:1rem;
+    border-radius: 10px;
+}
+.list-item-simple{
+    border:1px solid black;
+    padding:5px;
+    width:60%;
+}
+.list-item-simple li{
+    list-style-type: none;
+}
