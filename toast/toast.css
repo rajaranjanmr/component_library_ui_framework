@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --toast-background-color:#F6830F;
+    --toast-white-color:white;
+}
+.toast-container{
+    width:30%;
+    display: none;
+    z-index:1;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    text-align: center;
+    bottom: 1.87rem;
+    position:fixed;
+    left:37.5rem;
+}
+.toast-content{
+    padding:1rem;
+    font-size:1.4rem;
+    background-color: var(--toast-background-color);
+    border-radius:5px;
+}
+.toast{
+    margin-top:0.5rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    color:var(--toast-white-color);
+    background-color: var(--toast-background-color);
+    width: 20%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.toast:hover{
+    border:none;
+}

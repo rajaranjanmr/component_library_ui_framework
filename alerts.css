@@ -4,13 +4,17 @@
     --greenalert-col : #77D970;
     --bluealert-col : #3DB2FF;
     --yellowalert-col : #F9D371;
+    --alieceblue-col:aliceblue;
+}
+.alert-container{
+    width: 60%;;
 }
 .alert{
-    width:70%;
+    width:60%;
     height: auto;
     padding: 0.94rem;
     display: flex;
-    gap:60%;
+    gap:10%;
     justify-content: space-around;
     border:1px solid black;
     border-radius: 1rem;
@@ -30,12 +34,10 @@
     background-color: var(--greenalert-col);
 }
 
-
 .badges{
-    color:rgb(202, 186, 186);
+    color:var(--alieceblue-col);
     display: flex;
-    }
-
+}
 .bluealert{
     background-color: var(--bluealert-col);
 }

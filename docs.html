@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="list/list.css">
     <link rel="stylesheet" href="navbar/navbar.css">
     <link rel="stylesheet" href="modals/login.css">
+    <link rel="stylesheet" href="rating/rating1.css">
+    <link rel="stylesheet" href="toast/toast.css">
+    <link rel="stylesheet" href="grid/grid1.css">
+    <link rel="stylesheet" href="grid/grid2.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>COMPONENT LIBRARY</title>
@@ -205,7 +209,7 @@
 
                     <div class="alert redalert">
                         <div class="contentItem">this is primary alert</div>
-                        <div class="contentIcon close rclose">
+                        <div class="contentIcon  rclose">
                             <i class="fal fa-times"></i>
                             
                         </div>
@@ -213,21 +217,21 @@
             
                     <div class="alert greenalert">
                         <div class="contentItem">this is success alert</div>
-                        <div class="contentIcon close gclose">
+                        <div class="contentIcon  gclose">
                             <i class="fal fa-times"></i> 
                         </div>
                     </div>
             
                     <div class="alert bluealert">
                         <div class="contentItem">this is blue alert</div>
-                        <div class="contentIcon close bclose">
+                        <div class="contentIcon  bclose">
                             <i class="fal fa-times"></i> 
                         </div>
                     </div>
             
                     <div class="alert yellowalert">
                         <div class="contentItem">this is ongoing alert</div>
-                        <div class="contentIcon close yclose">
+                        <div class="contentIcon  yclose">
                             <i class="fal fa-times"></i> 
                         </div>
                     </div>
@@ -736,19 +740,19 @@
 </iframe>
                                 </div>
 
-                                <div class="subheading" id="navigation">
-                                    <h3>Navigation Bar</h3>
-                                    <div class="subhead-content">
-                                        Documentation and examples for common text utilities to control alignment, wrapping, weight, and more. 
-                                    </div>
+        <div class="subheading" id="navigation">
+            <h3>Navigation Bar</h3>
+                <div class="subhead-content">
+                        Documentation and examples for common text utilities to control alignment, wrapping, weight, and more. 
+                </div>
 
-                                    <div class="navbar navigation-bar">
-                                        <ul class="navlist navigation-list"> 
-                                        <div class="navitem">
-                                            <li><a href="#">home</a></li>
-                                        </div>
-                                        <div class="navitem">
-                                            <li><a href="#">about</a></li>
+            <div class="navbar navigation-bar">
+                <ul class="navlist navigation-list"> 
+                    <div class="navitem">
+                        <li><a href="#">home</a></li>
+                                </div>
+                                <div class="navitem">
+                                         <li><a href="#">about</a></li>
                                         </div>
                                         <div class="navitem">
                                             <li><a href="#">feature</a></li>
@@ -756,22 +760,21 @@
                                         <div class="navitem">
                                             <li><a href="#">blog</a></li>
                                         </div>
-                                        </ul>
-                                    </div>
+                </ul>
+            </div>
                                     <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2520navigation-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navlist%2520navigation-list%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navitem%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253Ehome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navitem%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253Eabout%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navitem%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253Efeature%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navitem%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253Eblog%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
   style="width: 530px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
-                                    </div>
-                                    <div class="subheading" id="modal">
-                                        <h3>Modals</h3>
-                                        <div class="subhead-content">
-                                            A modal is a dialog box/popup window that is displayed on top of the current page 
-                                        </div>
-                                        <button class="login-btn-ecom" >Login-Modal-Based</button>
-    
-    
+        </div>
+            <div class="subheading" id="modal">
+        <h3>Modals</h3>
+            <div class="subhead-content">
+                        A modal is a dialog box/popup window that is displayed on top of the current page 
+            </div>
+            <button class="login-btn-ecom" >Login-Modal-Based</button>
+        
         <div id="id01" class="login-container">
           
           <form class="login-content login-animate" action="" >
@@ -779,7 +782,6 @@
               <span class="close" >&times;</span>
               <img src="avatar-the-grinch-green-plant-recycling-symbol-food-transparent-png-1652162.png" alt="Avatar" class="avatar">
             </div>
-        
             <div class="container-form">
               <label for="uname"><b>Username</b></label>
               <input type="text" placeholder="Enter Username" name="uname" required>
@@ -801,13 +803,107 @@
         sandbox="allow-scripts allow-same-origin">
         </iframe>
 </div>
-            
+<div class="subheading" id="rating">
+    <h3>Ratings</h3>
+
+    <div class="subhead-content">
+        A rating is a visual representation. 
+    </div>
+    <div class="rating-container">
+        <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+
         </div>
+        <div class="num-rating rating-h">
+            <span>4.4</span>
+            <span class="fa fa-star"></span>
+
+        </div>
+        <div class="num-rating rating-m">
+            <span>3.8</span>
+            <span class="fa fa-star"></span>
+
+        </div>
+        <div class="num-rating rating-l">
+            <span>2.5</span>
+            <span class="fa fa-star"></span>
+
+        </div>
+        </div>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522num-rating%2520rating-h%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E4.4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522num-rating%2520rating-m%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E3.8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522num-rating%2520rating-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E2.5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 589px; height: 670px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+        <div class="subheading" id="toast">
+            <h3>Toast</h3>
+        
+            <div class="subhead-content">
+                A toast is .... 
+            </div>
+            <div class="toast-main-container">
+            <div class="toast-container">
+                <div class="toast-content">This is toast showing info</div>
+            </div>
+            <button class="toast">Toast</button>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522subhead-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520rating%2520is%2520a%2520visual%2520representation.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-content%2522%253EThis%2520is%2520toast%2520showing%2520info%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522toast%2522%253EToast%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+  style="width: 783px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
+            <div class="subheading" id="grid">
+                <h3>Grids</h3>
+            
+                <div class="subhead-content">
+                    Grid with two items. 
+                </div>
+
+                <div class="grid-container">
+                    <div class="item1 item-two">
+                        One
+                    </div>
+                <div class="item2 item-two">
+                    Two
+                    </div>
+                    
+                </div>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520One%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Two%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+        style="width: 479px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+                </div>
+                <div class="subheading" id="grid">
+                    <h3>Grids</h3>
+                    <div class="subhead-content">
+                        Grid with three items. 
+                    </div>
+                    <div class="grid-container-sec">
+                        <div class="item1 item-three">One</div>
+                        <div class="item2 item-three">two</div>
+                        <div class="item3 item-three">three</div>
+                    </div>
+    <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-sec%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item1%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item2%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item3%2522%253Ethree%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+        style="width: 606px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+    </iframe>
+    </div>
+    </div>
         <div class="footer">
             
         </div>
     <script src="alert.js"></script>
     <script src="cards/card1.js"></script>
     <script src="modals/login.js"></script>
+    <script src="toast/toast.js"></script>
 </body>
 </html>

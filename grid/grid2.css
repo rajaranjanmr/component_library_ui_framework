@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.grid-container-sec{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 200px ;
+    
+}
+:root{
+    --grid-item-one-color:aqua;
+    --gird-item-two-color:bisque;
+    --gird-item-three-color:salmon;
+}
+.item-three{
+    width:15rem;
+    height: 12.5rem;
+    border:1px solid black;
+    text-align: center;
+    padding:5rem;
+}
+.item1{
+    background-color: var(--grid-item-one-color);
+}
+.item2{
+    border: 1px solid black;
+}
+.item3{
+    background-color:var(--gird-item-three-color);
+}

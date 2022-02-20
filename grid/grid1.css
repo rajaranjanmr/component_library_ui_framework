@@ -1,0 +1,26 @@
+:root{
+    --grid-item-one-color:aqua;
+    --gird-item-two-color:bisque;
+    --gird-item-three-color:salmon;
+}
+.gird-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 12.5rem;
+    width:100%;
+}
+.item-two{
+    width:25rem;
+    height: 12.5rem;
+    text-align: center;
+    padding:5rem;
+    border:1px solid black;
+}
+
+.item1{
+    background-color: var(--grid-item-one-color);
+}
+.item2{
+    background-color: var(--gird-item-two-color);
+    
+}
