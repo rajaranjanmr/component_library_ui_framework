@@ -30,6 +30,21 @@ ycloseBtn.addEventListener("click",function closeAlert(){
 yAlert.style.display = 'none';
     
 })
+//for cards
+
+const closeEl = document.querySelector("#dismiss-icon");
+const closeCard = document.querySelector(".card-dismiss")
+closeEl.addEventListener("click",function closeFunction(){
+    closeCard.style.display='none';
+})
+
+//for toast
+const btnEl = document.querySelector(".toast");
+const toastEl = document.querySelector(".toast-container");
+btnEl.addEventListener("click",()=>{
+    toastEl.style.display="block";
+    
+})
 
 //for modal
 
@@ -49,18 +64,5 @@ closeElement.addEventListener("click",()=>{
     idEl.style.display='none';
 })
 
-//for cards
 
-const closeEl = document.querySelector(".fal");
-const closeCard = document.querySelector(".card-dismiss")
-closeEl.addEventListener("click",function closeFunction(){
-    closeCard.style.display='none';
-})
 
-//for toast
-const btnEl = document.querySelector(".toast");
-const toastEl = document.querySelector(".toast-container");
-btnEl.addEventListener("click",()=>{
-    toastEl.style.display="block";
-    
-})
