@@ -30,6 +30,8 @@ Installation guide is provided under "Get Started" section.
 
 This project is deployed on : netlify
 
+This can be accessed here :
+
 ```bash
   https://component-libra.netlify.app/
 ```
@@ -43,7 +45,7 @@ This project is deployed on : netlify
 
 #### What is the version of current application?
 
-Answer : V1
+Answer : V1.0
 
 #### How often its get new releases?
 
