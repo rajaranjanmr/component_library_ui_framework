@@ -31,7 +31,7 @@ Installation guide is provided under "Get Started" section.
 This project is deployed on : netlify
 
 ```bash
-  netlify.com
+  https://component-libra.netlify.app/
 ```
 
 
